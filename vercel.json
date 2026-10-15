@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/resume.pdf",
+      "headers": [{ "key": "Content-Disposition", "value": "inline; filename=\"Rom_Jerico_Reyes_Resume.pdf\"" }]
+    }
+  ]
+}
