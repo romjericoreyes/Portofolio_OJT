@@ -1,9 +1,7 @@
-/* ---------- Tokens ---------- */
 :root {
   --font-serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-sans: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
-  /* Dark is the default theme */
   --bg: #14161d;
   --surface: #1b1e27;
   --text: #e9e7e2;
