@@ -26,7 +26,6 @@
   color-scheme: light;
 }
 
-/* ---------- Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
 body {
@@ -57,7 +56,6 @@ a:hover { color: var(--accent); }
   stroke-linecap: round; stroke-linejoin: round;
 }
 
-/* ---------- Layout ---------- */
 .shell {
   display: grid;
   grid-template-columns: var(--rail) minmax(0, 1fr);
@@ -108,7 +106,6 @@ a:hover { color: var(--accent); }
 
 main { padding: 0 var(--gutter) 4rem 3.5rem; min-width: 0; }
 
-/* ---------- Hero ---------- */
 .hero { padding: clamp(3rem, 9vw, 6.5rem) 0 3.5rem; }
 .name {
   font-family: var(--font-serif);
@@ -136,7 +133,6 @@ main { padding: 0 var(--gutter) 4rem 3.5rem; min-width: 0; }
 .btn-primary:hover { color: var(--accent-ink); filter: brightness(1.08); }
 .location { margin-top: 1.25rem; color: var(--muted); font-size: 0.95rem; }
 
-/* ---------- Sections ---------- */
 section { padding: 3rem 0; border-top: 1px solid var(--line); }
 h2 {
   font-family: var(--font-serif); font-weight: 500;
@@ -176,7 +172,6 @@ h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.35; }
 .timeline .entry > div { padding-left: 1.75rem; }
 .timeline .entry { column-gap: 0; }
 
-/* ---------- Skills ---------- */
 .facts > div {
   display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); column-gap: 2rem;
   padding-bottom: 1.75rem;
@@ -190,7 +185,6 @@ h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.35; }
 }
 .plain li + li { margin-top: 0.2rem; }
 
-/* ---------- Certifications ---------- */
 .certs { max-width: 46em; }
 .certs li { padding: 1rem 0; border-top: 1px solid var(--line); }
 .certs li:first-child { border-top: 0; padding-top: 0; }
@@ -204,7 +198,6 @@ h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.35; }
   color: var(--muted); font-size: 0.95rem;
 }
 
-/* One orchestrated moment: the name settles in on load */
 @media (prefers-reduced-motion: no-preference) {
   .name span { animation: settle 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
   .name span + span { animation-delay: 0.15s; }
@@ -215,7 +208,6 @@ h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.35; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-/* ---------- Tablet and mobile ---------- */
 @media (max-width: 56rem) {
   .shell { grid-template-columns: 1fr; }
   .rail {
