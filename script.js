@@ -13,7 +13,6 @@
     setTheme(root.dataset.theme === "dark" ? "light" : "dark");
   });
 
-  // Mark the current section in the nav while scrolling.
   var links = Array.prototype.slice.call(document.querySelectorAll(".nav a"));
   var map = {};
   links.forEach(function (a) { map[a.getAttribute("href").slice(1)] = a; });
