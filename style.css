@@ -150,6 +150,7 @@ h3 { font-size: 1.1rem; font-weight: 600; line-height: 1.35; }
 .entry:last-child { padding-bottom: 0; }
 .when { color: var(--muted); font-size: 0.95rem; padding-top: 0.2rem; font-variant-numeric: tabular-nums; }
 .role { color: var(--muted); margin-top: 0.15rem; max-width: 44em; }
+.summary { margin-top: 0.7rem; max-width: 46em; }
 .entry ul { margin-top: 0.7rem; max-width: 46em; }
 .entry li { position: relative; padding-left: 1.1rem; margin-top: 0.3rem; }
 .entry li::before {
